@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  	<title>Cloonfad United's Official Website</title>
+
+  <style>
+	html, body {
+  		margin: 0;
+  		padding-top: 114px; /* height of your fixed header + its borders */
+  		height: auto;
+ 		 background-color: #FFC200; /* optional, if you want consistent color */
+		}
+    	.layout {
+  		display: grid;
+  		grid-template-columns: 1fr 20px minmax(700px, 1250px) 20px 1fr;
+  		}
+	.headerlayout {
+      		display: grid;
+      		grid-template-columns: 1fr 20px minmax(700px, 1250px) 20px 1fr;      
+    		}
+    	.left-bg,
+    	.right-bg {
+      		background-color: #003DA5; /* Blue side areas */
+    		}
+    	.left-strip,
+    	.right-strip {
+      		background-color: #F7F5E6; /* White strips */
+    		}
+    	.center {
+      		background-color: #FFC200; /* Main content area Gold/yellow */
+      		padding: 0rem;
+    		}
+   	.center-img {
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: 40%; /* Optional: adjust width */
+    		}
+	header {
+      		background-color: #003DA5;
+      		color: white;
+      		padding: 0rem;      		
+      		justify-content: center;
+      		align-items: center;
+		position: fixed;
+      		top: 0;
+      		left: 0;
+      		width: 100%;
+      		z-index: 1000;
+      		}
+	.header-border {
+  		border-top: 20px solid #F7F5E6;   /* same as left/right strip */
+  		border-bottom: 20px solid #F7F5E6;
+		}
+	table.custom-bg {
+    		background-image: url("pictures/TempNew.png");
+    		background-size: cover;
+    		background-repeat: no-repeat;
+    		background-position: center;
+    		width: 100%;
+		border: 4px;		
+  		}
+.social-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  /* 4 equal columns */
+    gap: 0px;  /* small gap between icons, adjust as needed */
+    width: 30%;
+    max-width: 400px; /* max width container */
+    margin: 0 auto 10px; /* center horizontally with bottom margin */
+}
+
+.social-icons img {
+    width: 40px;  /* icon size, adjust as needed */
+    height: auto;
+    justify-self: center;  /* center each icon in its grid cell */
+    display: block;
+}
+<!-- Menu -->	
+	.image {width:400px; height:40%; padding-top:100%; padding-left:1%;  margin:0 auto; }
+	.container {width:600px; }
+	
+	.nav,
+	.nav ul {list-style-type:none; margin:0; padding:0; float:left;}
+
+	.nav 	{
+		font-family: Times New Roman, sans-serif;
+		font-weight: bold;
+ 		font-size:75%; 
+		margin-bottom:0%;
+		width:150px;
+		margin-right:0px;
+		}
+	
+	.nav a 	{
+		float:left; 
+		background:#ddd; 
+		color:#404040; 
+		text-align:center; 
+		line-height:165%; 
+		padding:4px 0; 
+		border:1px 
+		solid #fff;
+		margin-right:-150px; 
+		margin-bottom:-1px;
+		text-decoration:none;
+		width:149px;
+		}
+
+	.nav a.sub-a 	{background:#bbb;}
+
+	.nav a:hover,
+	.nav a:focus,
+	.nav a:active 	{outline:0; color:#fff; background:#222;}
+
+	.nav li:hover > a {color:#FFF000; background:#4497D0;} 	
+	.nav ul li 	{max-width:150px;} 	
+	.nav ul.fly 	{top:-30px; left:150px;} 		
+	
+	
+ 
+	/* DO NOT CHANGE ANYTHING BELOW THIS LINE */
+	/* ___________________________________________________________________________ */
+			.nav ul {position:relative; margin-bottom:-10000px;} 
+			.nav ul li {float:left; clear:left;}
+			.nav a {position:relative;}
+			.sub-li {margin-top:-10000px;}
+			.sub-a {margin-top:10000px;}
+ 
+	
+			.sub-li a:hover,
+			.sub-li a:focus,
+			.sub-li a:active {margin-right:0;}
+	 
+			/* Opera Fix */
+			.nav ul:hover {clear:left;}
+ 
+			<!-- IE5-7 fixes -->
+			.nav .sub-li {width:100%;}
+			a:active {}		
+  </style>
+</head>
+
+
+
+
+<body>
+	<div class="layout">
+    	<div class="left-bg"></div>
+    		<div class="left-strip"></div>
+			<div class="center" id="main-content">
+ 				<iframe id="content-frame" src="homeCrest.html" width="100%" style="border:none; min-height:calc(100vh - 160px); display:block;"></iframe>
+			</div>
+    		<div class="right-strip"></div>
+    	<div class="right-bg"></div>
+  	</div>
+
+<header>   	 
+	<div class="headerlayout">
+    	<div class="left-bg"></div>
+    	<div class="left-strip"></div>
+    		<div class="center">
+ 			<div class="header-border">
+	
+ 			<table  border = 0 class="custom-bg"  width = 100% align="center" cellpadding="0" cellspacing="0">
+				<tr>	
+    					<th width="15%">
+						<IMG  SRC = "pictures/crest.png" BORDER = 0  width = 140px>
+					</th>
+    					<th width="100%" border = 0  align="center" cellpadding="0" cellspacing="0">
+						<H1 style="margin:0; padding:0;" > Cloonfad United Football Club's official Website</H1>
+
+<div class="social-icons">
+    <img src="pictures/facebook.png" alt="Cloonfad's Facebook page" />
+    <img src="pictures/Instagram.png" alt="Cloonfad's Instagram" />
+    <img src="pictures/Gmail.png" alt="Cloonfad Gmail" />
+    <img src="pictures/Wiki.png" alt="Cloonfad Wiki" />
+</div>
+													
+			<!-- Start of Dropdown menu -->	
+				<div id="wrapper">
+					<div class="image">
+						<div class="container">	
+							<ul class="nav">
+							<li><a href="homeCrest.html">HOME</a></li>
+							</ul>
+							<!--________________________________________________________________________________________________-->
+							<ul class="nav">
+							<li class="sub-li"><a class="sub-a" href="#url">A TEAM</a>									
+								<ul>
+								<li class="sub-li"><a class="sub-a" href="#url">Please select a year...</a>	
+									<ul class="fly">
+									<li class="sub-li"><a class="sub-a" href="#url">70's (78-79)</a>							
+										<ul class="fly">
+										<li><a href="19781979ATemp.html">1978-1979</a></li>
+										<li><a href="19791980ATemp.html">1979-1980</a></li>
+										</ul>
+									</li>
+ 
+									<li class="sub-li"><a class="sub-a" href="#url">80's (80-89)</a>							
+										<ul class="fly">
+										<li><a href="19801981A.html">1980-1981</a></li>
+										<li><a href="19811982A.html">1981-1982</a></li>
+										<li><a href="19821983A.html">1982-1983</a></li>
+										<li><a href="19831984A.html">1983-1984</a></li>
+										<li><a href="19841985A.html">1984-1985</a></li>
+										<li><a href="19851986A.html">1985-1986</a></li>
+										<li><a href="19861987A.html">1986-1987</a></li>
+										<li><a href="19871988A.html">1987-1988</a></li>
+										<li><a href="19881989A.html">1988-1989</a></li>	
+										<li><a href="19891990A.html">1989-1990</a></li>
+										</ul>
+									</li>
+							
+									<li class="sub-li"><a class="sub-a" href="#url">90's (90-99)</a>							
+										<ul class="fly">
+										<li><a href="19901991A.html">1990-1991</a></li>
+										<li><a href="19911992A.html">1991-1992</a></li>
+										<li><a href="19921993A.html">1992-1993</a></li>
+										<li><a href="19931994A.html">1993-1994</a></li>
+										<li><a href="19941995A.html">1994-1995</a></li>
+										<li><a href="19951996A.html">1995-1996</a></li>
+										<li><a href="19961997A.html">1996-1997</a></li>
+										<li><a href="19971998A.html">1997-1998</a></li>
+										<li><a href="19981999A.html">1998-1999</a></li>	
+										<li><a href="19992000A.html">1999-2000</a></li>
+										</ul>
+									</li>
+				
+									<li class="sub-li"><a class="sub-a" href="#url">00's (00-09)</a>							
+										<ul class="fly">
+										<li><a href="20002001A.html">2000-2001</a></li>
+										<li><a href="20012002A.html">2001-2002</a></li>
+										<li><a href="20022003A.html">2002-2003</a></li>
+										<li><a href="20032004A.html">2003-2004</a></li>
+										<li><a href="20042005A.html">2004-2005</a></li>
+										<li><a href="20052006A.html">2005-2006</a></li>
+										<li><a href="20062007A.html">2006-2007</a></li>
+										<li><a href="20072008A.html">2007-2008</a></li>
+										<li><a href="20082009A.html">2008-2009</a></li>	
+										<li><a href="20092010A.html">2009-2010</a></li>
+										</ul>
+									</li>
+ 
+									<li class="sub-li"><a class="sub-a" href="#url">10's (10-20)</a>							
+										<ul class="fly">
+										<li><a href="20102011A.html">2010-2011</a></li>
+										<li><a href="20112012A.html">2011-2012</a></li>
+										<li><a href="20122013A.html">2012-2013</a></li>
+										<li><a href="20132014A.html">2013-2014</a></li>	
+										<li><a href="20142015A.html">2014-2015</a></li>
+										<li><a href="20152016A.html">2015-2016</a></li>									
+										</ul>
+									</li> 
+									</ul>
+								<li class="sub-li"><a class="sub-a" href="#url">'A' Team Overview</a>
+										<ul class="fly">
+										<li><a href="AManagers.html">'A' Managers</a></li>
+										<li><a href="ACaptains&Award.html">Captains & Awards</a></li>
+										<li><a href="AtopScorers.html">Top Scorers</a></li>
+										<li><a href="AleagueGraphed.html">League Finish</a></li>									
+										<li><a href="AheadtoHead.html">Head to Head</a></li>
+										<li><a href="AteamSummary.html">Summary Inforamtion</a></li>
+										</ul>
+								</li>
+								</li>	
+								</ul>
+																
+							</li>
+							</ul>
+							<!--________________________________________________________________________________________________-->	
+ 
+							<!--________________________________________________________________________________________________-->
+							<ul class="nav">
+							<li class="sub-li"><a class="sub-a" href="#url">B TEAM</a>									
+								<ul>
+								<li class="sub-li"><a class="sub-a" href="#url">Please select a year...</a>	
+									<ul class="fly">
+									
+ 
+									
+							
+									<li class="sub-li"><a class="sub-a" href="#url">90's (90-99)</a>							
+										<ul class="fly">	
+										<li><a href="19931994B.html">1993-1994</a></li>																				
+										<li><a href="19941995B.html">1994-1995</a></li>
+										<li><a href="19951996B.html">1995-1996</a></li>
+										<li><a href="19961997B.html">1996-1997</a></li>
+										<li><a href="19971998B.html">1997-1998</a></li>
+										<li><a href="19981999B.html">1998-1999</a></li>	
+										<li><a href="19992000B.html">1999-2000</a></li>
+										</ul>
+									</li>
+				
+									<li class="sub-li"><a class="sub-a" href="#url">00's (00-09)</a>							
+										<ul class="fly">
+										<li><a href="20002001B.html">2000-2001</a></li>
+										<li><a href="20012002B.html">2001-2002</a></li>
+										<li><a href="20022003B.html">2002-2003</a></li>
+										<li><a href="20032004B.html">2003-2004</a></li>
+										<li><a href="20042005B.html">2004-2005</a></li>
+										<li><a href="20052006B.html">2005-2006</a></li>
+										<li><a href="20062007B.html">2006-2007</a></li>
+										<li><a href="20072008B.html">2007-2008</a></li>
+										<li><a href="20082009B.html">2008-2009</a></li>	
+										<li><a href="20092010B.html">2009-2010</a></li>
+										</ul>
+									</li>
+ 
+									<li class="sub-li"><a class="sub-a" href="#url">10's (10-20)</a>							
+										<ul class="fly">
+										<li><a href="20102011B.html">2010-2011</a></li>
+										<li><a href="20112012B.html">2011-2012</a></li>
+										<li><a href="20122013B.html">2012-2013</a></li>
+										<li><a href="20132014B.html">2013-2014</a></li>
+										<li><a href="20142015B.html">2014-2015</a></li>
+										<li><a href="20152016B.html">2015-2016</a></li>										
+										</ul>
+									</li>
+ 
+									</ul>
+								<li class="sub-li"><a class="sub-a" href="#url">'B' Team Overview</a>
+										<ul class="fly">
+										<li><a href="BManagers.html">'B' Managers</a></li>
+										<li><a href="BCaptains&Award.html">Captains & Awards</a></li>
+										<li><a href="BtopScorers.html">Top Scorers</a></li>
+										<li><a href="BleagueGraphed.html">League Finish</a></li>									
+										<li><a href="BheadtoHead.html">Head to Head</a></li>
+										<li><a href="BteamSummary.html">Summary Inforamtion</a></li>
+										</ul>
+									</li>
+								</li>	
+								</ul>
+																
+							</li>
+							</ul>
+							<!--________________________________________________________________________________________________-->	
+							<ul class="nav">
+							<li class="sub-li"><a class="sub-a" href="#url">MASTERS</a>									
+								<ul>
+								<li class="sub-li"><a class="sub-a" href="#url">Please select a year...</a>	
+									<ul class="fly">
+									
+ 
+									
+							
+ 
+									<li class="sub-li"><a class="sub-a" href="#url">10's (10-20)</a>							
+										<ul class="fly">
+										
+										<li><a href="2013M.html">2013</a></li>
+										<li><a href="2014M.html">2014</a></li>
+										<li><a href="2015M.html">2015</a></li>
+										<li><a href="2016M.html">2016</a></li>												
+										</ul>
+									</li>
+ 
+									</ul>
+								<li class="sub-li"><a class="sub-a" href="#url">Masters Overview</a>
+										<ul class="fly">
+										<li><a href="MManagers.html"> Managers</a></li>
+										<li><a href="MCaptains&Award.html">Captains & Awards</a></li>
+										<li><a href="MtopScorers.html">Top Scorers</a></li>
+										<li><a href="MleagueGraphed.html">League Finish</a></li>									
+										<li><a href="MheadtoHead.html">Head to Head</a></li>
+										<li><a href="MteamSummary.html">Summary Inforamtion</a></li>
+										</ul>
+									</li>
+								</li>	
+								</ul>
+																
+							</li>
+							</ul>
+							<!--________________________________________________________________________________________________-->	
+
+				</th>		
+ 
+						</div>	<!-- end container -->
+					</div>	<!-- end image -->
+				</div>	<!-- end wrapper -->
+			<!-- End of Dropdown menu -->
+ 
+ 
+
+			
+			<th width="15%" >
+				<IMG  SRC = "pictures/rdflCrest.png"   width = 170px>		
+			</th>
+		<tr>		
+	</table>
+
+	</div>
+    	</div>
+    	<div class="right-strip"></div>
+    	<div class="right-bg"></div>
+  	</div>
+  </header>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  // Load iframe content on link click
+  document.querySelectorAll('.nav a[href$=".html"]').forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault(); // Stop default navigation
+      const file = this.getAttribute('href');
+      const iframe = document.getElementById('content-frame');
+      iframe.setAttribute('src', file); // Load content into iframe
+
+      // Close dropdowns by removing focus/hover
+      document.querySelectorAll('.nav li').forEach(li => li.classList.remove('open'));
+      document.activeElement.blur(); // Remove focus from clicked link
+    });
+  });
+
+  // Optional enhancement: make dropdowns toggleable (click to open/close)
+  document.querySelectorAll('.nav > li > a.sub-a').forEach(link => {
+    link.addEventListener('click', function (e) {
+      const parentLi = this.parentElement;
+      const alreadyOpen = parentLi.classList.contains('open');
+      document.querySelectorAll('.nav li').forEach(li => li.classList.remove('open'));
+      if (!alreadyOpen) parentLi.classList.add('open');
+    });
+  });
+});
+</script>
+ 
+</body>
+</html>
